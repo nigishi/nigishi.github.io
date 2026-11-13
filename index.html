@@ -1,8 +1,38 @@
-<html>
-    <head>
-        <title>test</title>
-    </head>
-    <body>
-        Hello world!
-    </body>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>nigishi — Works</title>
+  <meta name="description" content="nigishi の作品ポートフォリオ。デスクトップアプリやWebサイトなど。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%232f6b5e'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>n</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero wrap">
+    <p class="eyebrow">Portfolio</p>
+    <h1>nigishi</h1>
+    <p class="lead">日々の仕事や暮らしを少しラクにする道具を作っています。<br>デスクトップアプリやWebサイトなど。</p>
+    <nav class="links">
+      <a href="https://github.com/nigishi" target="_blank" rel="noopener">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section aria-labelledby="featured-h">
+      <h2 id="featured-h" class="section-title">Works</h2>
+      <div id="featured" class="grid featured"></div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="year"></span> nigishi</span>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
